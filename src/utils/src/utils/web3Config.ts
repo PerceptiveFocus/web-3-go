@@ -1,0 +1,1 @@
+\nimport { ethers } from 'ethers';\n\nexport const getProvider = async () => {\n    if (typeof window === 'undefined' || !window.ethereum) {\n        throw new Error('Web3 provider not found');\n    }\n    return new ethers.BrowserProvider(window.ethereum);\n};

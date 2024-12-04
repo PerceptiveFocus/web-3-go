@@ -1,0 +1,1 @@
+\n// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract Example {\n    string public name;\n    constructor(string memory _name) {\n        name = _name;\n    }\n}

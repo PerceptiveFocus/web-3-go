@@ -1,0 +1,1 @@
+\n'use client'\n\nimport { useState } from 'react'\n\nexport default function Home() {\n  return (\n    <main className=\"flex min-h-screen flex-col items-center justify-between p-24\">\n      <h1 className=\"text-4xl font-bold\">Welcome to Web 3 go</h1>\n    </main>\n  )\n}
